@@ -26,7 +26,11 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
-CSRF_TRUSTED_ORIGINS = ['https://8000-sajalol-nodemonkes-c100k5rf061.ws-eu107.gitpod.io']
+CSRF_TRUSTED_ORIGINS = ['https://8000-sajalol-nodemonkes-dhztclfpwrc.ws-eu107.gitpod.io']
+
+REST_FRAMEWORK = {
+    # Default authentication and permission classes, pagination, etc.
+}
 
 
 # Application definition
